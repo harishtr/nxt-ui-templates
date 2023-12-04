@@ -2,7 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { TextInput } from "@govhhs/govhhs-design-system-react";
 
-const MSDPhoneNumber = (props) => {
+export interface MSDPhoneNumberProps {
+  id: string;
+  label: string;
+}
+
+const MSDPhoneNumber = (props: MSDPhoneNumberProps) => {
   const { id, label } = props;
   return <TextInput id={id} label={label} />;
 };
