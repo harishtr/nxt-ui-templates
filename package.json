@@ -1,0 +1,24 @@
+{
+  "name": "@spm/universal-access-starter-pack",
+  "version": "6.1.4",
+  "description": "Universal Access Starter Pack",
+  "scripts": {
+    "build": "vite build && tsc"
+  },
+  "dependencies": {
+    "react": "17.0.2"
+  },
+  "peerDependencies": {
+    "@govhhs/govhhs-design-system-core": "file:Installer/govhhs-govhhs-design-system-core-1.40.12.tgz",
+    "@govhhs/govhhs-design-system-react": "file:Installer/govhhs-govhhs-design-system-react-1.40.12.tgz",
+    "react": "17.0.2"
+  },
+  "devDependencies": {
+    "@govhhs/govhhs-design-system-core": "file:Installer/govhhs-govhhs-design-system-core-1.40.12.tgz",
+    "@govhhs/govhhs-design-system-react": "file:Installer/govhhs-govhhs-design-system-react-1.40.12.tgz",
+    "@types/react": "^18.2.41",
+    "react": "17.0.2",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.5"
+  }
+}
