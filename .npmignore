@@ -1,3 +1,4 @@
 /Installer
 /node_modules
 /.github
+vite.config.js
